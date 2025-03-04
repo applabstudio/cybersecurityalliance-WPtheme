@@ -1,0 +1,137 @@
+*, *:focus {
+	outline:none !important
+}
+
+html,body
+{
+	margin:0 !important;
+	padding:0 !important;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.section {
+	padding-top:70px;
+	padding-bottom:70px
+}
+
+.sfm-navicon-button
+{
+	position:fixed !important;
+}
+
+.bar {
+	height:53px;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	padding-left:53px;
+	padding-right:20px;
+	line-height:53px;
+	z-index:10000;
+	-webkit-box-shadow: 0 5px 11px rgba(0,0,0,0.18);
+	        box-shadow: 0 5px 11px rgba(0,0,0,0.18)
+}
+.bar a {
+	color:white !important;
+	text-decoration:none !important;
+}
+
+.card {
+	border:1px solid #ccc;
+	height:350px;
+	margin-bottom:20px;
+	border-radius: 6px;
+	position:relative;
+	overflow:hidden
+}
+
+.card-image
+{
+	height:150px;
+}
+
+.card-body
+{
+	padding:15px;
+	padding-bottom:45px
+}
+
+.card-actions
+{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:30px;
+	line-height:30px;
+	border-top:1px solid #ccc;
+	padding: 0 15px 0 15px;
+	background:white
+}
+
+.card-title
+{
+	margin:0;
+	margin-top:10px
+}
+
+.center-background {
+	background-size:cover;
+	background-position:center center;
+	background-repeat: no-repeat;
+}
+
+.c-blue
+{
+	color: #203b88
+}
+
+.bg-blue
+{
+	background: #203b88
+}
+
+.g-recaptcha{
+	margin-bottom: 20px;
+}
+
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 0.875rem;
+	font-weight: 700;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+
+.comment-navigation .nav-links, .posts-navigation .nav-links, .post-navigation .nav-links {
+    display: flex;
+}
